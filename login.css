@@ -1,0 +1,29 @@
+.main {
+    position: relative;
+    background-image: url(wai-siew-mTFyV8oNDzU-unsplash.jpg);
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    z-index: -1;
+}
+
+    .first {
+        background-image: url("wai-siew-mTFyV8oNDzU-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .second {
+        background-image: url("istockphoto-1309453432-640x640.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
